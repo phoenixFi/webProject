@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astana Guide - Home</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      box-sizing: border-box;
+    }
+
+    /* Header Styles */
+    header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 4;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      margin-left: 20px;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .hero {
+      position: relative;
+      height: 100vh;
+      background: url(/Users/madiyarofficalgmail.com/Downloads/photo_2024-01-26_09-58-56.jpg) center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      z-index: 1;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 2;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 3;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      margin: 0;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero h2 {
+      font-size: 1.8rem;
+      font-weight: 300;
+      margin: 15px 0;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Information about the site */
+    .about-site {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .about-site h3 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .about-site p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Footer Styles */
+    footer {
+      padding: 20px;
+      text-align: center;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to Astana</h1>
+    <nav>
+      <a href="main.html">Home</a>
+      <a href="history.html">History</a>
+    </nav>
+  </header>
+
+  <!-- Main Hero Section with blur background -->
+  <section class="hero">
+    <div class="overlay"></div> <!-- Dark overlay for contrast -->
+    <div class="hero-content">
+      <h2>Astana: A City of Endless Discoveries</h2>
+      <h1>Explore Astana: Your Essential City Guide</h1>
+      <p>Uncover the vibrant essence of Astana with our comprehensive guide.</p>
+    </div>
+  </section>
+
+  <!-- Main Content Section -->
+  <main>
+    <!-- Section with content -->
+    <section>
+      <h2>Discover the Wonders of Astana</h2>
+      <p>
+        Astana, the capital of Kazakhstan, is a modern city with a rich cultural and historical heritage. 
+        Our guide will take you through its iconic landmarks and hidden gems.
+      </p>
+    </section>
+
+    <!-- Figure with image and figcaption -->
+    <figure>
+      <img src="astana-landmark.jpg" alt="Astana Landmark" width="600">
+      <figcaption>One of the iconic landmarks of Astana.</figcaption>
+    </figure>
+
+    <!-- Blockquote for a quote -->
+    <blockquote>
+      "Astana is not just a city, it is a dream realized. A symbol of progress and a hub of innovation." – Nursultan Nazarbayev
+    </blockquote>
+
+    <!-- Ordered List of key highlights -->
+    <ol>
+      <li>Baiterek Tower</li>
+      <li>Khan Shatyr</li>
+      <li>Palace of Peace and Reconciliation</li>
+    </ol>
+
+    <!-- Unordered List of recommendations -->
+    <ul>
+      <li>Best time to visit: Spring and Autumn</li>
+      <li>Don't miss the Night Lights Tour</li>
+      <li>Experience the vibrant local cuisine</li>
+    </ul>
+
+    <!-- Description List -->
+    <dl>
+      <dt>Astana</dt>
+      <dd>The capital city of Kazakhstan since 1997</dd>
+      <dt>Baiterek Tower</dt>
+      <dd>A symbol of the city, representing the future of the nation</dd>
+    </dl>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Astana City Guide. All rights reserved.</p>
+    <p>Created by: Madiyar Erbatyrov</p>
+  </footer>
+
+</body>
+</html>
