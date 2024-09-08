@@ -62,6 +62,7 @@ body, html {
     z-index: 2;
   }
 
+
   .hero-content {
     position: relative;
     z-index: 3;
@@ -92,12 +93,12 @@ body, html {
     text-align: center;
   }
 
-  .about-site h3 {
+  h3 {
     font-size: 2rem;
     margin-bottom: 20px;
   }
 
-  .about-site p {
+   p {
     font-size: 1.2rem;
     line-height: 1.6;
     max-width: 800px;
